@@ -1,0 +1,39 @@
+body {
+    background-image: url(images/background.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.quote {
+    font-size: 18px;
+}
+
+button  {
+    background-color: #141c2c;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+
+
+button:disabled{
+    background-color: #8c8b8b;
+    cursor: wait
+}
