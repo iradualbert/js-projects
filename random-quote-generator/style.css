@@ -35,5 +35,5 @@ button  {
 
 button:disabled{
     background-color: #8c8b8b;
-    cursor: wait
+    cursor: progress;
 }
