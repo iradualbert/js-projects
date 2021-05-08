@@ -20,7 +20,7 @@ body {
     font-size: 18px;
 }
 
-button  {
+button {
     background-color: #141c2c;
     color: #fff;
     padding: 10px;
@@ -31,9 +31,7 @@ button  {
     margin-top: 10px;
 }
 
-
-
-button:disabled{
+button:disabled {
     background-color: #8c8b8b;
     cursor: progress;
 }
