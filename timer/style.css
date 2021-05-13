@@ -1,0 +1,15 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+#time-left {
+    color: #000;
+    margin-right: 24px;
+    line-height: 64px;
+    font-size: 48px;
+}
